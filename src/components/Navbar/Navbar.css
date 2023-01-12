@@ -1,0 +1,41 @@
+
+.Navitems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 5%; 
+    font-family: "Karla";
+    font-weight: 600;
+    font-size: 1.1em;
+
+}
+
+.Navbutton {
+    Padding:0 2%;
+}
+
+.Navbutton a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.02em;
+    transition: ease-in-out 0.3s;
+}
+
+
+.Navbutton a:hover {
+    text-decoration: none;
+    color: #495E57;
+    letter-spacing: 0.05em;
+    transition: ease-in-out 0.3s;
+}
+
+
+.Logo {
+    width: 15%;
+    padding-right: 4%;
+}
+
+.Logo:hover {
+    cursor: pointer;
+}

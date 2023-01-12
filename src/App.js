@@ -1,10 +1,11 @@
-import Navbar from  "./components/Navbar"
-import Highlights from "./components/Highlights";
-import HeroSection from "./components/HeroSection";
+import Navbar from  "./components/Navbar/Navbar"
+import Highlights from "./components/Highlights/Highlights";
+import HeroSection from "./components/HeroSection/HeroSection";
 import Testimonials from "./components/Testimonials";
 import About from "./components/About";
 import ContactUs from "./components/Contact";
 import './App.css';
+import "@fontsource/karla";
 
 
 

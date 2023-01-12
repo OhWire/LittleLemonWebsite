@@ -1,50 +1,30 @@
 
+
 .container{
     background-color: aquamarine;
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     display: grid;
     grid-template: 1.5fr 5fr 7fr 5.5fr 6.5fr 3.5fr / repeat(12,1fr);
-    margin: 0 auto;
-    gap: 2px;
 }
 
 
 .Navbar{
-    background-color: aliceblue;
+    background-color: White;
     grid-row: 1/1;
     grid-column: 1/13;
 }
 
-.Nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.Navitems li {
-    padding: 0 0 10px 20px;
-    margin-right: 10px;
-    list-style: none;
-}
-
-.Navitems li a {
-    text-decoration: none;
-}
-
-#Logo{
-    margin: 10px auto ;
-}
 
 .Hero{
-    background-color: blue;
+    background-color: #495E57;
     grid-row: 2/3;
     grid-column: 1/-1;
 }
 
 
 .Highlights{
-    background-color: blueviolet;
+    background-color: White;
     grid-row: 3/4;
     grid-column: 1/-1;
 }
@@ -74,7 +54,3 @@
     grid-column: 1/-1;
 }
 
-
-ul li {
-    display: inline;
-}

@@ -1,4 +1,4 @@
-import Special1 from "./Salad.jpg"
+import Special1 from "./Highlights/Salad.jpg"
 
 function ContactUs() {
     return(

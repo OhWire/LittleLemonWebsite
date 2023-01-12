@@ -1,0 +1,68 @@
+.Hero{
+    display: flex;
+    align-content: center;
+    padding-bottom: 4%;
+    padding-top: 1%;
+}
+
+.Description {
+    padding-left: 20%;
+    width: 25%;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.Description h2 {
+    font-size: 2.5rem;
+    font-weight: 525;
+    font-family: "Markazi-Text";
+    color: #F4CE14;
+    padding: 0;
+    margin-bottom: 2%;
+}
+
+.Description h3 {
+    color: white;
+    font-family: "Karla";
+    font-weight: 100;
+    font-size: 27px;
+    letter-spacing: 0.08rem;
+    margin-bottom: 2%;
+    margin-top: 0;
+}
+
+.Description p {
+    font-family: "Markazi-Text";
+    font-weight: 400;
+    font-size: 1.2;
+    color: White;
+    line-height: 1.4em;
+}
+
+.Chef {
+    height: 100%;
+    width: 35%; 
+}
+
+.ChefPic {
+    width: 100%;
+    height: 75%;
+    padding-top: 12%;
+    padding-bottom: 10%;
+    padding-left: 30%;
+}
+
+.Button {
+    height: 3em;
+    width: 10em;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    font-family: "Karla";
+    font-size: 1em;
+    margin-left: 25%;
+    margin-top: 10%;
+    
+}
+
